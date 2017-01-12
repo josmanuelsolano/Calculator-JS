@@ -1,0 +1,27 @@
+.btn-gray{
+    color: #fff;
+    background-color: #999;
+    border-color: #777;
+}
+
+.btn-numeric{
+    color: #337ab7;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.row-memory{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.rows-numbers{
+    padding-bottom: 10px;
+}
+
+#calc-front{
+    background-color: #eee;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-style: ridge;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/calculator.css" rel="stylesheet">
+  </head>
+  <body>
+      <br><br><br><br><br>
+      <div class="container">
+          <div class="col-sm-6 col-sm-offset-3">
+              <div id="calc-front" class="col-sm-10 col-sm-offset-1">
+                  <div class="col-sm-12">
+                      <div class="input">
+                          <span id="screen-top" type="text" class="form-control input-md"></span>
+                          <span id="screen-bottom" type="text" class="form-control input-md"></span>
+                      </div>
+                      <br>
+                  </div>
+                  <div class="col-xs-12 row-memory">
+                      <div id="mrc" class="col-xs-3 btn btn-lg btn-gray" > MRC </div>
+                      <div id="mplus" class="col-xs-3 btn btn-lg btn-gray" > M + </div>
+                      <div id="mminus" class="col-xs-3 btn btn-lg btn-gray" > M - </div>
+                      <div id="clear" class="col-xs-3 btn btn-lg btn-danger" > C </div>
+                  </div>
+                  <div class="col-xs-12 rows-numbers">
+                      <div id="del" class="col-xs-3 btn btn-lg btn-primary" > DEL </div>
+                      <div id="sign" class="col-xs-3 btn btn-lg btn-primary" > +/- </div>
+                      <div id="divide" class="col-xs-3 btn btn-lg btn-primary" > / </div>
+                      <div id="multiply" class="col-xs-3 btn btn-lg btn-primary" > x </div>
+                  </div>
+                  <div class="col-xs-12 rows-numbers">
+                      <div id="seven" class="col-xs-3 btn btn-lg btn-numeric" > 7 </div>
+                      <div id="eight" class="col-xs-3 btn btn-lg btn-numeric" > 8 </div>
+                      <div id="nine" class="col-xs-3 btn btn-lg btn-numeric" > 9 </div>
+                      <div id="minus" class="col-xs-3 btn btn-lg btn-primary" > - </div>
+                  </div>
+                  <div class="col-xs-12 rows-numbers">
+                      <div id="four" class="col-xs-3 btn btn-lg btn-numeric" > 4 </div>
+                      <div id="five" class="col-xs-3 btn btn-lg btn-numeric" > 5 </div>
+                      <div id="six" class="col-xs-3 btn btn-lg btn-numeric" > 6 </div>
+                      <div id="plus" class="col-xs-3 btn btn-lg btn-primary" > + </div>
+                  </div>
+                  <div class="col-xs-12 rows-numbers">
+                      <div id="one" class="col-xs-3 btn btn-lg btn-numeric" > 1 </div>
+                      <div id="two" class="col-xs-3 btn btn-lg btn-numeric" > 2 </div>
+                      <div id="three" class="col-xs-3 btn btn-lg btn-numeric" > 3 </div>
+                      <div id="root" class="col-xs-3 btn btn-lg btn-primary" > root </div>
+                  </div>
+                  <div class="col-xs-12 rows-numbers">
+                      <div id="zero" class="col-xs-6 btn btn-lg btn-numeric" > 0 </div>
+                      <div id="dot" class="col-xs-3 btn btn-lg btn-numeric" > . </div>
+                      <div id="equals" class="col-xs-3 btn btn-lg btn-warning" > = </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/calcJQuery.js"></script>
+  </body>
+</html>
